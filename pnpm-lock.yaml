@@ -1,4 +1,5 @@
 dependencies:
+  '@fortawesome/fontawesome-free': 5.15.0
   '@polymer/iron-icon': 3.0.1
   '@polymer/iron-list': 3.1.0
   '@polymer/polymer': 3.2.0
@@ -925,6 +926,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-XjnvNqenk818r5zMaba+sLQjnbda31UfUURv3ei0qPQw4u+j2jMyJ5b11y8ZHYTRSI3NnInQkkkRT4fLqqPdHg==
+  /@fortawesome/fontawesome-free/5.15.0:
+    dev: false
+    engines:
+      node: '>=6'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-wXetjQBNMTP59MAYNR1tdahMDOLx3FYj3PKdso7PLFLDpTvmAIqhSSEqnSTmWKahRjD+Sh5I5635+5qaoib5lw==
   /@npmcli/move-file/1.0.1:
     dependencies:
       mkdirp: 1.0.4
@@ -6926,6 +6934,7 @@ packages:
     resolution:
       integrity: sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==
 specifiers:
+  '@fortawesome/fontawesome-free': 5.15.0
   '@polymer/iron-icon': 3.0.1
   '@polymer/iron-list': 3.1.0
   '@polymer/polymer': 3.2.0
