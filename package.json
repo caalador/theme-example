@@ -69,7 +69,10 @@
     "chokidar": "^3.4.0",
     "validator": "12.0.0",
     "lit-html": "1.2.1",
-    "@types/validator": "10.11.3"
+    "@types/validator": "10.11.3",
+    "css-loader": "4.2.1",
+    "file-loader": "6.1.0",
+    "construct-style-sheets-polyfill": "2.4.2"
   },
   "vaadin": {
     "dependencies": {
@@ -139,8 +142,11 @@
       "chokidar": "^3.4.0",
       "validator": "12.0.0",
       "lit-html": "1.2.1",
-      "@types/validator": "10.11.3"
+      "@types/validator": "10.11.3",
+      "css-loader": "4.2.1",
+      "file-loader": "6.1.0",
+      "construct-style-sheets-polyfill": "2.4.2"
     },
-    "hash": "5d8dbaf54f5d8c371aa3e8ece3907c190fe7c76441dd3cb27d91d09865d5e3e2"
+    "hash": "c42a56d5d796e612696db326c178dd20d508067957afbcc2b553e3275bee2835"
   }
 }
