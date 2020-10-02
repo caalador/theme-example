@@ -8,3 +8,7 @@ html {
   src: url("theme/my-theme/webfonts/ostrich-sans-regular.ttf")
     format("TrueType");
 }
+body {
+  background: url("theme/my-theme/images/background.png");
+  background-size: cover;
+}
