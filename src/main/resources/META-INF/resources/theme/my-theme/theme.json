@@ -1,0 +1,9 @@
+{
+  "assets": {
+    "@fortawesome/fontawesome-free": {
+      "css/all.css": "fontawesome/css",
+      "webfonts/**": "fontawesome/webfonts"
+    }
+  },
+  "externalCss": ["fontawesome/css/all.css"]
+}
