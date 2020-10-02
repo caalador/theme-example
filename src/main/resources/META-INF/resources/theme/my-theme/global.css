@@ -1,3 +1,10 @@
 html {
-  --lumo-base-color: lightblue;
+  --lumo-base-color: antiquewhite;
+  --lumo-font-family: "Ostrich";
+}
+
+@font-face {
+  font-family: "Ostrich";
+  src: url("theme/my-theme/webfonts/ostrich-sans-regular.ttf")
+    format("TrueType");
 }
