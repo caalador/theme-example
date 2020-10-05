@@ -1,3 +1,8 @@
 {
-  "documentCss": ["@fortawesome/fontawesome-free/css/all.css"]
+  "documentCss": ["@fortawesome/fontawesome-free/css/all.css"],
+  "assets": {
+    "@fortawesome/fontawesome-free": {
+      "svgs/regular/**": "fontawesome/svgs/regular"
+    }
+  }
 }

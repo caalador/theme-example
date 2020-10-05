@@ -3,6 +3,7 @@ package com.example.application.views.helloworld;
 import com.example.application.views.main.MainView;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dependency.CssImport;
+import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
@@ -23,13 +24,15 @@ public class HelloWorldView extends HorizontalLayout {
     public HelloWorldView() {
         setId("hello-world-view");
         name = new TextField("Your name");
-
+        Image snowFlake = new Image("fontawesome/svgs/regular/snowflake.svg", "");
+        snowFlake.setHeight("2em");
+        add(snowFlake);
         Span hand = new Span();
         hand.addClassNames("fas", "fa-hand-sparkles");
         sayHello = new Button("Say hello", hand);
         add(name, sayHello);
         setVerticalComponentAlignment(Alignment.END, name, sayHello);
-        sayHello.addClickListener( e-> {
+        sayHello.addClickListener(e -> {
             Notification.show("Hello " + name.getValue());
         });
     }
