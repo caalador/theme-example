@@ -19,3 +19,5 @@ error-screenshots/
 webpack.generated.js
 
 src/main/resources/META-INF/resources/theme/my-theme/my-theme.js
+frontend/theme/their-theme/their-theme.js
+webpack.config.js

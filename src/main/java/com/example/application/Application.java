@@ -16,8 +16,7 @@ import org.vaadin.artur.helpers.LaunchUtil;
  *
  */
 @SpringBootApplication
-@PWA(name = "My Project", shortName = "My Project")
-@Theme("my-theme")
+@Theme("their-theme")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
 
     public static void main(String[] args) {

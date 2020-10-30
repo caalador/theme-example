@@ -12,7 +12,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <vaadin.version>17.0.4</vaadin.version>
-        <flow.version>4.0.theme-SNAPSHOT</flow.version>
+        <flow.version>5.0.theme-SNAPSHOT</flow.version>
     </properties>
 
     <parent>

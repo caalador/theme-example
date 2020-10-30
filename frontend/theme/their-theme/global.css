@@ -1,0 +1,14 @@
+html {
+  --lumo-base-color: orange;
+  --lumo-font-family: "Ostrich";
+}
+
+@font-face {
+  font-family: "Ostrich";
+  src: url("theme/their-theme/webfonts/ostrich-sans-regular.ttf") format("TrueType");
+}
+
+body {
+  background: url("theme/their-theme/images/background.jpg");
+  background-size: cover;
+}
